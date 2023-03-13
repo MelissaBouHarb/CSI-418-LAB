@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise1</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100%;
+        padding-left: 10px;
+      }
+
+      header {
+        background-color: greenyellow;
+        height: 80px;
+      }
+
+      #main {
+        display: flex;
+        background-color: peachpuff;
+        height: 300px;
+        flex-direction: row;
+      }
+
+      nav,
+      #aside {
+        flex: 1;
+        background-color: peachpuff;
+      }
+
+      #article {
+        flex: 2;
+        background-color: white;
+      }
+
+      footer {
+        background-color: greenyellow;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header>header</header>
+      <div id="main">
+        <nav>nav</nav>
+        <div id="article">Article</div>
+        <div id="aside">Aside</div>
+      </div>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
